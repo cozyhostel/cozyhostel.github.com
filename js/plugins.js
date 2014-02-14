@@ -369,7 +369,7 @@ var Grid = (function() {
             // create Preview structure:
             this.$title = $( '<h3></h3>' );
             this.$description = $( '<p></p>' );
-            this.$href = $( '<a href="#" target="_blank">前往豆瓣小站查看更多图片</a>' );
+            this.$href = $( '<a href="http://site.douban.com/228100/" target="_blank">前往豆瓣小站查看更多图片</a>' );
             this.$details = $( '<div class="details"></div>' ).append( this.$title, this.$description, this.$href );
             this.$loading = $( '<div class="loading"></div>' );
             this.$fullimage = $( '<div class="fullimg"></div>' ).append( this.$loading );
